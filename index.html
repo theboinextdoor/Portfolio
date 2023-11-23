@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal@4"></script>
+</head>
+<body class="bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900 text-white font-myfont">
+    <div class="min-h-screen px-6 py-3 flex flex-col gap-10 md:px-10 lg:px-16 lg:py-7">
+
+        <!-- Header -->
+        <header class="flex justify-between "> 
+            <a href="#index.html" class="flex items-center">
+                <h1 class="text-4xl font-bold logo-transform">T<span class="text-red-400">B</span>ND.</h1>
+            </a>
+
+            <ul class="hidden lg:flex lg:items-center lg:gap-10 lg:font-medium image-transform" >
+                <li class="listitem2"><a href="">Home</a></li>
+                <li class="listitem2"><a href="">About</a></li>
+                <li class="listitem2"><a href="">Contact Me</a></li>
+            </ul>
+            <div class="hidden lg:flex lg:items-center lg:gap-10 lg:font-medium resume-transform">
+                <a href="" class="hover:text-red-300">Log in</a>
+                <a href="" class="bg-purple-600 px-2 py-1 font-medium rounded-md hover:bg-purple-700 active:bg-purple-400">Resume</a>
+            </div>
+            <div class="lg:hidden"><i class="fa-solid fa-bars fa-2x"></i></div>
+        </header>
+
+        <!-- Main -->
+        <main class="lg:flex ">
+            <div class="flex items-center justify-center lg:flex-1 lg:order-2 lg:justify-end image-transform">
+                <img src="https://miro.medium.com/v2/resize:fit:1358/1*VeO6SUvV4N3zD1BXBAj3eA.png" alt="work from Home" class="outline outline-white shadow-2xl shadow-blue-400 rounded-lg lg:h-[500px] lg:w-[500px]">
+            </div>
+
+            <div class="space-y-6 mt-16 lg:flex-1 lg:order-1 lg:mt-24 xl:mt-16 text-transform">
+                <div class="text-center leading-tight ">
+                    <h1 class=" lg:text-4xl xl:text-3xl">Coder Under the hood</h1>
+                    <h1 class="text-4xl font-bold lg:text-8xl xl:text-7xl">the<span class="text-red-500">BOY</span>nextdoor</h1>
+                </div>
+
+                <p class=" lg:text-2xl font-light">Welcome to the digital realm where creativity meets functionality! I am a passionate Front-End Web Developer, specializing in crafting immersive and user-centric digital experiences. With a keen eye for design aesthetics and a commitment to seamless user interactions, I transform ideas into visually stunning, responsive, and intuitive websites.</p>
+                <h1 class="text-2xl font-light">Contact Me: </h1>
+                <form class="flex flex-col gap-2 md:flex-row md:gap-1">
+                    <input type="text" placeholder="Email address" class=" text-black rounded-l-md max-md:rounded-md md:rounder-l-md px-4 py-3 outline outline-none md:w-80 ">
+                    <button class="bg-purple-600 active:bg-purple-300 cursor-pointer rounded-r-md max-md:rounded-md md:rounder-r-md outline outline-none px-4 py-3 md:w-44">Send</button>
+                </form>
+
+                <!-- Links -->
+                <div class="flex flex-col py-6 xl:gap-2 xl:py-4">
+                    <p class="font-semibold">Folow me on</p>
+                    <ul class="flex gap-2 ">
+                        <li class="listitem"><a href="https://twitter.com/heyanonymouss"><i class="fa-brands fa-x-twitter"></i></a></i><li>
+                        <li class="listitem"><a href="https://www.instagram.com/_.theboynextdoor/"><i class="fa-brands fa-instagram"></i></a><li>
+                        <li class="listitem"><a href="https://www.linkedin.com/in/faraaz-ashraf-831796204/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <!-- <li class="listitem"><a href=""><i class="fa-brands fa-snapchat"></i></a></li> -->
+                        <li class="listitem"><a href="https://github.com/theboinextdoor"><i class="fa-brands fa-github"></i></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </div>    
+
+    <!-- Footer -->
+    <!-- <div class="bg-gradient-to-r from-slate-800 via-purple-800 to-slate-800 flex py-6 px-10 md:justify-start lg:p-12 xl:pt-16 xl:pb-6">
+
+        <div class="logo-transform flex flex-1 items-center ">
+            <ul class="hover:text-red-400 xl:flex xl:justify-end xl:items-center xl:gap-6">
+                 <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="image-transform flex flex-1 items-center justify-start">
+            <p>Gaddha Colony, Zakir Nagar  New Delhi, 110025 <br>+91-820111482</p>
+        </div>
+
+
+        <div class="resume-transform flex flex-1 items-center  xl:justify-start xl:gap-6 ml-3">
+            <ul class="hover:text-red-400 flex flex-shrink md:flex md:justify-between md:items-center">
+                <li class="listitem"><i class="fa-brands fa-x-twitter"></i><li>
+                    <li class="listitem"><i class="fa-brands fa-instagram"></i><li>
+                    <li class="listitem"><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="listitem"><i class="fa-brands fa-snapchat"></i></li>
+            </ul>
+        </div>
+    </div> -->
+    
+   
+   
+</body>
+<script src="script.js"></script>
+</html>
